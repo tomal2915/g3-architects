@@ -144,6 +144,21 @@ main {
 /* teams end */
 
 
+/* features-content */
+.features-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 130px 240px 0 240px;
+}
+.features-content-title{
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+
+
 /* facts start */
 .facts-container {
     margin: 210px;
@@ -192,7 +207,7 @@ main {
 .sponsor-img-container-cards {
     display: flex;
     justify-content: space-between;
-    margin: 50px 240px 0 240px;
+    margin: 50px 245px 0 245px;
 }
 /* sponsor end */
 
@@ -264,9 +279,9 @@ main {
         flex-direction: column;
     }
 
-    .teams-img-container {
+    /* .teams-img-container {
         grid-template-columns: 1fr;
-    }
+    } */
 
     .teams-content {
         width: 800px;
